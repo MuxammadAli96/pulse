@@ -1,0 +1,51 @@
+.feedbacks{
+    padding: 60px 0;
+    &-items{
+        padding: 0px 20px;
+    }
+   &__header{
+    color: #0D0D0D;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px; /* 100% */
+    text-transform: uppercase;
+   }
+   &-item{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px ;
+    &__marathon{
+        color: #646464;
+        font-size: 14px;
+        font-weight: 500;
+       }
+    img{
+        width: 169px;
+        height: 169px;
+        margin-right: 20px;
+    }
+   }
+   &-text{
+    width: 680px;
+    display: flex;
+    flex-direction: column;
+   }
+   &__name{
+    margin-bottom: 0px;
+    color: #0D0D0D;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px; /* 100% */
+
+   }
+
+   &-descr{
+    margin-top: 10px;
+    color: #0D0D0D;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px; 
+    letter-spacing: 1px;
+   }
+}
